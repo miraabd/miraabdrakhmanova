@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mira's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Mira Abdrakhmanova</h1>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle">&#9776;</label>
+            <ul>
+              <li><a href="index.html">About me</a></li>
+              <li><a href="pages/gallery.html">Gallery</a></li>
+              <li><a href="pages/contact.html">Contacts</a></li>
+            </ul>
+          </nav>
+    </header>
+        <div id="intro">
+            <h1>Mira</h1>
+            <h2>Biologist</h2>
+            <div class="image-box">
+                <img src="images/picture.jpeg" alt="Profile Picture">
+            </div>
+            
+            <button id="info-btn" class="image-box">Click to know more about me!</button>
+            <div id="info-window">
+                <span class="close-button">&times;</span>
+            <h2>Here's some information!</h2>
+            <p>I am an adaptable and open-minded individual with a strong
+                desire to pursue a Master's degree. My various skills make me an
+                excellent candidate for graduate studies. </p>
+            <br>
+            <p>I am driven and curious senior year biology student seeking a challenging and rewarding research position. Possessing strong research skills and a passion for scientific exploration, I am eager to contribute to a dynamic research team in the field of biology.            </p>
+              
+            </div>
+            </div>
+
+        <main>
+        <section id="education">
+            <h2>Education</h2>
+            <ul class="ul-resume">
+                <li class="info-box">
+                    <h3>Nazarbayev Intellectual School of Physics and Mathematics</h3>
+                    <h5>Kokshetau, Kazakhstan</h5>
+                    <p class="date">2013 - 2019</p>
+                </li>
+                <li class="info-box"> 
+                    <h3>Nazarbayev University</h3>
+                    <h5>Astana, Kazakhstan</h5>
+                    <p class="date">2019 - 2023</p>
+                </li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul class="ul-resume">
+                <li class="info-box">
+                    <h3>RA in the Neuroscience
+                        Laboratory</h3>
+                    <h5>Nazarbayev University</h5>
+                    <p class="date">December 2022 - PRESENT</p>
+                    <ul>
+                        <li>Performing transfection, RNA
+                            isolation</li>
+                        <li>Performing DNA synthesis, PCR,
+                            dot-blot</li>
+                    </ul>
+                    <h4 class="skills">Skills: advanced data analysis, laboratory work</h4>
+                </li>
+                <li class="info-box">
+                    <h3>Minister of Sports and Health</h3>
+                    <h5>Nazarbayev University Student Government</h5>
+                    <p class="date">August 2022 - April 2023</p>
+                    <ul>
+                        <li>Head organizer of student events for around 1000 people</li>
+                        <li>Contribution to healthy lifestyles of local students</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <div id="sendform">
+        <h2>
+            Leave me a message here:
+        </h2>
+    <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="info-btn">Send</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+        <div class="footer-columns">
+            <div class="column">
+              <p>Made by Mira A.</p>
+            </div>
+            <div class="column">
+              <h3>Follow Me</h3>
+              <ul class="social-media-links">
+                <li><a href="https://www.linkedin.com/in/mira-abdrakhmanova-bb2b11201/"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/noonanomueoppo/"><i class="fa fa-instagram"></i> Instagram</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>Contact Me</h3>
+              <p>Email: mira.abdrakhmanova@nu.edu.kz<br>Phone: +7-747-240-91-78</p>
+            </div>
+          </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
